@@ -14,5 +14,17 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('login');
+});
+
+Route::get('/hubungan', function () {
+    return view('hubungan');
+});
+
+Route::get('/umur', function () {
+    return view('umur');
+});
+
+Route::get('/pekerjaan', function () {
+    return view('pekerjaan');
 });
